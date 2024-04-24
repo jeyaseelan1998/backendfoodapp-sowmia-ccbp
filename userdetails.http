@@ -1,0 +1,17 @@
+send req
+     
+get   http://localhost:3007/user/
+//
+send req
+
+post  http://localhost:3007/userdetails/
+
+Content-Type: application/json
+
+{
+    "username" : "Sowndharya Raj",
+    "name" : "Sowndharya",
+    "password" : "23243555",
+    "gender" : "Female",
+    "location" : "Banaglore",
+}
